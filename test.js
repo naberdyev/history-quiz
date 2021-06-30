@@ -86,14 +86,14 @@ function showQuiestion(questions, qIndex) {
     question.a.forEach((answer, aIndex) => {
         answerStr += `
         <li style="order:${answerOrder[aIndex]}">
-            <lable>
+            <label>
                 <input 
                     type="radio" 
                     name="question-${qIndex}"
                     data-correct="${question.correct === aIndex}"
                 >
                 ${answer}
-            </lable>
+            </label>
         </li>
         `
     })
@@ -106,9 +106,9 @@ function showQuiestion(questions, qIndex) {
             ${answerStr}
         </ul>
         
-        <lable>
+        <label>
             <button type="submit">Submit</button> 
-        </lable>
+        </label>
         
     </form>
     
