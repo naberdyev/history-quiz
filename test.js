@@ -72,7 +72,7 @@ function showResults(score) {
         <h1 style="color: gray; font-size: 1.75em; ">
             Your score is ${score}/${questions.length}
         </h1>
-        <h1 style="color: green; font-size: 2em; webkit-text-size-adjust: none;">
+        <h1 style="color: green; font-size: 2em;">
             ${message}
         </h1>
     </div>`
