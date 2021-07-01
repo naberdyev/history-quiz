@@ -100,7 +100,7 @@ function showQuiestion(questions, qIndex) {
 
     quizStr =`
     <form> 
-        <h1>${question.q}</h1>
+        <h1 id="question">${question.q}</h1>
         <div class="alert">Choose the correct answer</div>
         <ul style="display: flex; flex-direction:column">
             ${answerStr}

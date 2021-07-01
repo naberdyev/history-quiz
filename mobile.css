@@ -9,7 +9,7 @@ body {
   text-align: center;
 }
 div.container-quiz {
-  margin-top: 100px;
+  margin-top: 10px;
   text-align: center;
   max-width: 1080px;
   padding: 0px;
@@ -69,4 +69,14 @@ input[type="radio"] {
 }
 div#score {
   font-size: 50px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h1#question {
+  margin-left: 10px;
+  font-size: 60px;
+  text-align: left;
 }
