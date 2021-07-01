@@ -13,15 +13,11 @@ div#start {
 }
 div.alert {
   font-size: 50px;
-  margin: 0.25em;
-  font-weight: bolder;
-  color: gray;
 }
 div.quiz-name {
   text-align: center;
   font-size: 70px;
   font-weight: bold;
-  font-variant: small-caps;
 }
 ul {
   padding: 5px;
@@ -45,7 +41,7 @@ p#start {
 
 div#score {
   text-align: center;
-  font-size: 82px;
+  font-size: 100px;
 }
 li {
   font-size: 50px;

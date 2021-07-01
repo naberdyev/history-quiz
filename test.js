@@ -10,7 +10,7 @@ function init() {
             to the test...
         </p>
         <button class="buttons" id="start-quiz" 
-                style="background-color:orangered; color: white; border-style:solid;"
+                style="background-color: red; color: white; border-style:none;"
         >
             START QUIZ
         </button>
@@ -69,7 +69,7 @@ function showResults(score) {
     else if (score / questions.length < 1) message = 'You are best!'
     quizEl.innerHTML = `
     <div id="score">
-        <h1 style="color: gray">
+        <h1 style="color: #486884">
             Your score is ${score}/${questions.length}
         </h1>
         <h1 style="color: green">
