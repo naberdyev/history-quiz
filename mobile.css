@@ -36,6 +36,7 @@ div.quiz-name {
   font-variant: small-caps;
 }
 ul {
+  list-style-type: none;
   text-align: left;
   margin-block-start: 0.25em;
   margin-block-end: 0.25em;
