@@ -3,15 +3,13 @@ head {
 }
 body {
   font-family: "Segoe UI";
-  max-width: 675px !important;
-  margin-right: 1px;
+  max-width: 1080px;
   padding: 0px;
   -webkit-text-size-adjust: none;
 }
 div.container-quiz {
   max-width: 670px;
   padding: 0px;
-  margin-right: 0px;
 }
 h1 {
   font-size: 20px;
