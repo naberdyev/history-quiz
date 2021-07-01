@@ -5,8 +5,8 @@ function init() {
     quizEl.innerHTML = `
     <div>
         <p>
-            Are you worthy of a crown, or just muddling through the Middle Ages?<br> 
-            Take our medieval kings and queens quiz and put your royal knowledge <br>
+            Are you worthy of a crown, or just muddling through the Middle Ages?
+            Take our medieval kings and queens quiz and put your royal knowledge
             to the test...
         </p>
         <button id="start-quiz" 
@@ -68,7 +68,7 @@ function showResults(score) {
     else if (score / questions.length < 0.75) message = 'Good!'
     else if (score / questions.length < 1) message = 'You are best!'
     quizEl.innerHTML = `
-    <div>
+    <div id="score">
         <h1 style="color: gray; font-size: 1.75em; ">
             Your score is ${score}/${questions.length}
         </h1>
