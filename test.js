@@ -3,7 +3,7 @@ function init() {
     let questionNumber = 0
     let score = 0
     quizEl.innerHTML = `
-    <div>
+    <div id="start">
         <p>
             Are you worthy of a crown, or just muddling through the Middle Ages?
             Take our medieval kings and queens quiz and put your royal knowledge
@@ -13,7 +13,7 @@ function init() {
                 style="background-color:orangered; color: white; border-style:solid;"
         >
             START QUIZ
-        </button
+        </button>
     </div>`
 
     
@@ -105,10 +105,8 @@ function showQuiestion(questions, qIndex) {
         <ul style="display: flex; flex-direction:column">
             ${answerStr}
         </ul>
-        
-        <label>
+
             <button type="submit">Submit</button> 
-        </label>
         
     </form>
     

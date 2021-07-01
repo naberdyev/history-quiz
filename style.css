@@ -3,14 +3,13 @@ head {
 }
 body {
   font-family: "Segoe UI";
-  max-width: 1080px;
-  padding: 0px;
+  width: 1050px;
+  padding: 15px;
   -webkit-text-size-adjust: none;
+  margin: 0px;
 }
-div.container-quiz {
-  max-width: 670px;
-  padding: 0px;
-}
+/* div.container-quiz {
+} */
 h1 {
   font-size: 20px;
   margin-block-end: 0.25em;
@@ -28,6 +27,7 @@ div.quiz-name {
   font-variant: small-caps;
 }
 ul {
+  list-style-type: none;
   margin-block-start: 0.25em;
   margin-block-end: 0.25em;
   padding: 0;
@@ -37,14 +37,13 @@ ul {
 button {
   background-color: lemonchiffon;
   color: black;
-  font-size: 1em;
+  font-size: 16px;
   padding: 0.5em;
   border-radius: 0.75em;
   font-weight: bolder;
-  margin-left: 1em;
-  margin-top: 0.25em;
   border-style: dashed;
-  max-width: 450px;
+  width: 150px;
+  font-family: "Segoe UI";
 }
 p {
   font-size: 20px;
