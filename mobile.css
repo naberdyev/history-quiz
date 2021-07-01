@@ -3,18 +3,15 @@ head {
 }
 body {
   font-family: "Segoe UI";
-  /* text-align: center; */
 }
-div.container-quiz,
-div#start {
-  width: 1050px;
-  text-align: center;
-}
+
 h1 {
-  font-size: 70px;
-  margin-block-end: 0.25em;
-  font-weight: bolder;
-  -webkit-text-size-adjust: none;
+  font-size: 60px;
+}
+div#start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 div.alert {
   font-size: 50px;
@@ -29,10 +26,7 @@ div.quiz-name {
   font-variant: small-caps;
 }
 ul {
-  text-align: left;
-  margin-block-start: 0.25em;
-  margin-block-end: 0.25em;
-  padding: 0;
+  padding: 5px;
   font-family: "Segoe UI";
 }
 button {
@@ -40,32 +34,44 @@ button {
   width: 900px;
   height: 150px;
 }
-
-p {
+form {
+  text-align: center;
+}
+p#start {
   max-width: 1080px;
   font-size: 60px;
-  -webkit-text-size-adjust: none;
-  margin-bottom: 100px;
+  margin: 0;
+  text-align: center;
 }
 
-input[type="radio"] {
-  width: 50px;
-  height: 50px;
-}
 div#score {
   font-size: 50px;
 }
-
 li {
   font-size: 50px;
-  margin-bottom: 10px;
 }
 
 h1#question {
-  margin-left: 10px;
-  font-size: 60px;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  padding: 10px;
   text-align: left;
 }
 
-hr {
+div.buttons {
+  text-align: center;
+}
+
+p.answers {
+  font-size: 45px;
+}
+
+input {
+  margin: 0;
+  width: 150px;
+  height: 50px;
+}
+label {
+  display: flex;
+  align-items: center;
 }

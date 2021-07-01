@@ -4,12 +4,12 @@ function init() {
     let score = 0
     quizEl.innerHTML = `
     <div id="start">
-        <p>
+        <p id="start">
             Are you worthy of a crown, or just muddling through the Middle Ages?
             Take our medieval kings and queens quiz and put your royal knowledge
             to the test...
         </p>
-        <button id="start-quiz" 
+        <button class="buttons" id="start-quiz" 
                 style="background-color:orangered; color: white; border-style:solid;"
         >
             START QUIZ
@@ -69,10 +69,10 @@ function showResults(score) {
     else if (score / questions.length < 1) message = 'You are best!'
     quizEl.innerHTML = `
     <div id="score">
-        <h1 style="color: gray; font-size: 1.75em; ">
+        <h1 style="color: gray">
             Your score is ${score}/${questions.length}
         </h1>
-        <h1 style="color: green; font-size: 2em;">
+        <h1 style="color: green">
             ${message}
         </h1>
     </div>`
@@ -92,7 +92,8 @@ function showQuiestion(questions, qIndex) {
                     name="question-${qIndex}"
                     data-correct="${question.correct === aIndex}"
                 >
-                ${answer}
+                <p class="answers">${answer}</p>
+               
             </label>
         </li>
         `
@@ -102,12 +103,10 @@ function showQuiestion(questions, qIndex) {
     <form> 
         <h1 id="question">${question.q}</h1>
         <div class="alert">Choose the correct answer</div>
-        <ul style="display: flex; flex-direction:column">
+        <ul id="answer-List">
             ${answerStr}
         </ul>
-
-            <button type="submit">Submit</button> 
-        
+            <button class="buttons" type="submit">Submit</button> 
     </form>
     
     `
