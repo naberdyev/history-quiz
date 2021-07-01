@@ -1,8 +1,6 @@
-head {
-  width: 675px;
-}
 body {
   font-family: "Segoe UI";
+  width: 1050px;
 }
 
 h1 {
@@ -41,6 +39,7 @@ p#start {
   max-width: 1080px;
   font-size: 60px;
   margin: 0;
+  padding: 20px;
   text-align: center;
 }
 
@@ -64,6 +63,7 @@ div.buttons {
 
 p.answers {
   font-size: 45px;
+  padding: 20px;
 }
 
 input {

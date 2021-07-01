@@ -1,6 +1,6 @@
 body {
   font-family: "Segoe UI";
-  width: 1050px;
+  width: 700px;
   padding: 15px;
   margin: 0px;
 }
@@ -20,29 +20,32 @@ div.quiz-name {
   font-variant: small-caps;
 }
 ul {
+  margin: 0;
   text-align: left;
   list-style-type: none;
   font-family: "Segoe UI";
+  padding: 0;
 }
 button {
   background-color: lemonchiffon;
   color: black;
   font-size: 16px;
-  padding: 0.5em;
   border-radius: 0.75em;
   font-weight: bolder;
   border-style: dashed;
   width: 150px;
   font-family: "Segoe UI";
+  margin: 10px;
 }
 p.answers {
   font-size: 20px;
   margin: 0;
-  padding: 20px;
+  padding: 5px;
 }
 
 label {
-  text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 input {
