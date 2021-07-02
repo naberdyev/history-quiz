@@ -15,9 +15,8 @@ div.alert {
   font-size: 50px;
 }
 div.quiz-name {
-  text-align: center;
   font-size: 70px;
-  font-weight: bold;
+  height: 2.9em;
 }
 ul {
   padding: 5px;

@@ -17,11 +17,17 @@ div.alert {
   color: #486884;
 }
 div.quiz-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 25px;
   font-variant: small-caps;
   background-color: #486884;
-  border-radius: 15px;
+  border-radius: 0.5em;
+  font-weight: bold;
+  text-align: center;
+  height: 2em;
 }
 ul {
   margin: 0;
@@ -40,6 +46,7 @@ button {
   width: 150px;
   font-family: "Segoe UI";
   margin: 10px;
+  height: 40px;
 }
 p.answers {
   font-family: Tahoma;
